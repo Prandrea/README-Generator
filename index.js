@@ -36,12 +36,11 @@ return inquirer.prompt([
 // Function call to initialize app
 init()
 .then((data) => {
-    return writeToFile(generateMarkdown(data));
+    console.log(data)
+    //writeToFile(generateMarkdown(data));
 })
 .catch((err) => {
     console.log(err);
-})
-;
+});
 
 
-console.log (data)
