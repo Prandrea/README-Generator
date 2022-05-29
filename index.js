@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -16,6 +17,11 @@ function writeToFile(fileName, data) {
 function init() {
        // TODO: Create an array of questions for user input
 return inquirer.prompt([
+    {
+        type:"input",
+        name: "Title",
+        message: "What is the title of your project?"
+    },
     {
         type:"input",
         name: "Github",
@@ -37,7 +43,8 @@ return inquirer.prompt([
 init()
 .then((data) => {
     console.log(data)
-    //writeToFile(generateMarkdown(data));
+    console.log(generateMarkdown(data))
+    //return writeToFile(generateMarkdown(data));
 })
 .catch((err) => {
     console.log(err);
