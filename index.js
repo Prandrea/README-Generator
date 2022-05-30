@@ -72,7 +72,7 @@ init()
 .then((data) => {
     console.log(data)
     console.log(generateMarkdown(data))
-    return writeToFile(generateMarkdown(parseInt(data).toString()));
+    return writeToFile(generateMarkdown(data));
 })
 .catch((err) => {
     console.log(err);
