@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('./output/README.md', data, err => {
+    fs.writeFile('./output/README.md', parseInt(data).toString(), (err) => {
         if (err) throw err;
         console.log('README complete!');
         });
@@ -72,7 +72,7 @@ init()
 .then((data) => {
     console.log(data)
     console.log(generateMarkdown(data))
-    //return writeToFile(generateMarkdown(data));
+    return writeToFile(generateMarkdown(parseInt(data).toString()));
 })
 .catch((err) => {
     console.log(err);
