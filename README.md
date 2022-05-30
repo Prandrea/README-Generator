@@ -15,7 +15,7 @@
     - [Questions](#-questions)
 
   ## Installation
-  Clone the repo onto your machine by typing git clone followed by the repo URL from the code section in Github. Then install the dependancies by typing npm install from command line.
+  Clone the repo onto your machine by typing git clone followed by the repo URL. Then install the dependencies by typing npm install from command line.
 
   ## Usage
   See walkthrough [video.](media/README-generator.webm)
