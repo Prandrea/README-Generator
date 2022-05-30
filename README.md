@@ -3,6 +3,7 @@
   The purpose of this project is to create a professional README with all necessary components without having to spend hours creating it.
 
   ## Table of Contents
+  - [${title}](#${descriptor(title)})
     - [Description](#-description)
     - [Table of Contents](#-table-of-contents)
     - [Installation](#-installation)
