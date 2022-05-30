@@ -3,8 +3,8 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile('./output/README.md', parseInt(data).toString(), (err) => {
+function writeToFile(data) {
+    fs.writeFile('./output/README.md', data, (err) => {
         if (err) throw err;
         console.log('README complete!');
         });
