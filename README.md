@@ -3,7 +3,7 @@
   The purpose of this project is to create a professional README with all necessary components without having to spend hours creating it.
 
   ## Table of Contents
-  - [${title}](#${descriptor(title)})
+  - [README-Generator](#${descriptor(title)})
     - [Description](#-description)
     - [Table of Contents](#-table-of-contents)
     - [Installation](#-installation)
@@ -18,7 +18,7 @@
   Clone the repo onto your machine by typing git clone followed by the repo URL from the code section in Github. Then install the dependancies by typing npm install from command line.
 
   ## Usage
-  See walkthrough video.
+  See walkthrough [video.](media/README-generator.mp4)
 
   ## License
    none
@@ -32,3 +32,4 @@
   ## Questions
   Github: @prandrea
   Email: prandrea@utexas.edu
+  
